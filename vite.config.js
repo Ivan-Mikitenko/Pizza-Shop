@@ -9,6 +9,3 @@ export default defineConfig({
 		base: '/Pizza-Shop/', // замените 'your-project-name' на имя вашего проекта
 	},
 })
-
-
-
