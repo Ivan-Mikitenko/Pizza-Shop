@@ -1,8 +1,7 @@
 {
   "name": "vite-react-pizza",
   "private": true,
-  "main": "main.js",
-  "homepage": ".",
+  "homepage": "https://ivan-mikitenko.github.io/Pizza-Shop/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

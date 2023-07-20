@@ -6,6 +6,8 @@ export default defineConfig({
 	plugins: [react()],
 	build: {
 		outDir: 'build',
+		base: '/Pizza-Shop/', // замените 'your-project-name' на имя вашего проекта
 	},
 })
+
 
