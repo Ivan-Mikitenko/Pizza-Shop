@@ -1,0 +1,37 @@
+@import '../../scss/variables';
+
+//TODO: убрать комбинацию CamelCase + BEM
+.notFound {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+
+	@media (min-width: $bp-laptop) {
+		margin: 0 100px;
+	}
+
+	&__title {
+		font-size: 60px;
+		margin-bottom: 10px;
+	}
+
+	&__description {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	&__wrapperImg {
+		background-image: url('https://dodopizzadev-a.akamaihd.net/site-static-pages-dev/errors/pizza-box-with-shadow-1.0.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+
+	&__button {
+		display: inline-block;
+		font-size: 30px;
+		background-color: $orange;
+		border-radius: 20px;
+		padding: 10px 30px;
+		color: $white;
+	}
+}

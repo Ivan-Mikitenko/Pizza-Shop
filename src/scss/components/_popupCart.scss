@@ -1,0 +1,28 @@
+@import '../variables';
+
+.popup-cart {
+	transition: all 0.2s ease-in-out;
+	padding: 15px 40px;
+	background-color: #7b7b7b;
+	position: absolute;
+	border-radius: 30px;
+	bottom: -53px;
+	right: 42px;
+	transform: translateY(0) translateX(0) scale(1);
+	opacity: 1;
+
+	&__title,
+	&__subtitle {
+		color: white;
+	}
+
+	&__title {
+		margin-bottom: 5px;
+	}
+}
+
+.hide {
+	transform: translateY(-71px) translateX(47px) scale(0.5);
+	background-color: $orange;
+	opacity: 0;
+}

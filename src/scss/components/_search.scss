@@ -1,0 +1,40 @@
+@import '../variables';
+
+.search {
+	&-wrapper {
+		@media (max-width: $bp-desktop) {
+			width: 100%;
+		}
+	}
+
+	&__form {
+		position: relative;
+	}
+
+	&__input {
+		width: 100%;
+		border: 1px solid $gray-hard;
+		border-radius: 13px;
+		padding: 15px 25px;
+
+		@media (min-width: $bp-desktop) {
+			width: 350px;
+		}
+	}
+
+	&__btn {
+		position: absolute;
+		padding: 0;
+		border: none;
+		font: inherit;
+		color: inherit;
+		background-color: transparent;
+		cursor: pointer;
+		right: 10px;
+		top: 5px;
+
+		&-icon-search {
+			cursor: pointer;
+		}
+	}
+}

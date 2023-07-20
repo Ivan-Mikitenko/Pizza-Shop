@@ -1,0 +1,44 @@
+@import '../variables';
+
+.pagination {
+	&__wrapper {
+		@media (max-width: $bp-mobile) {
+			justify-content: center;
+		}
+
+		margin-top: 100px;
+		display: flex;
+		gap: 10px;
+	}
+
+	&__item {
+		cursor: pointer;
+		display: flex;
+		border-radius: 50%;
+		transition: all 0.1s ease-in-out;
+
+		&:hover {
+			box-shadow: 6px 7px 4px 1px rgba(254, 95, 30, 0.4);
+			transform: translateY(-5px);
+		}
+	}
+
+	&__link {
+		@media (max-width: $bp-mobile) {
+			padding: 8px 15px;
+			font-size: 14px;
+		}
+
+		border: 1px solid $orange;
+		padding: 12px 20px;
+		border-radius: 50%;
+		color: $easy-red;
+		font-weight: 700;
+		font-size: 20px;
+	}
+}
+
+.selected {
+	border-radius: 50%;
+	background-color: $orange-easy;
+}
