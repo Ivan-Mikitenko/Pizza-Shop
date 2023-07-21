@@ -1,13 +1,16 @@
 {
   "name": "vite-react-pizza",
   "private": true,
+  "homepage": "https://ivan-mikitenko.github.io/Pizza-Shop/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
