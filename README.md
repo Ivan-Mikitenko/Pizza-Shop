@@ -4,10 +4,10 @@
 Проект "React Pizza" - это веб-приложение для заказа пиццы, которое я разработал, используя следующие технологии и инструменты:
 
 - React
-- Redux Toolkit
+- Redux Toolkit + Persist
 - React Router v6 
 - SCSS 
-- TypeScript (branch DEV-TypeScript)
+- TypeScript
 
 ## Особенности проекта
 
