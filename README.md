@@ -7,7 +7,7 @@
 - Redux Toolkit + Persist
 - React Router v6 
 - SCSS 
-- TypeScript (branch DEV-TypeScript)
+- TypeScript
 
 ## Особенности проекта
 
