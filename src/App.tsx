@@ -1,11 +1,11 @@
-import Header from './components/Header.jsx';
-import Home from './pages/Home.jsx';
-import NotFoundPages from './pages/NotFoundPage/NotFoundPage.jsx';
+import Header from './components/Header.js';
+import Home from './pages/Home.js';
+import NotFoundPages from './pages/NotFoundPage/NotFoundPage.js';
 
 import './scss/app.scss';
 import { Route, Routes } from 'react-router-dom';
-import Cart from './pages/Cart.jsx';
-import PizzaInfo from './components/PizzaInfo.jsx';
+import Cart from './pages/Cart.js';
+import PizzaInfo from './components/PizzaInfo.js';
 
 function App() {
 	return (

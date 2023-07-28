@@ -14,10 +14,11 @@ module.exports = {
     project: './tsconfig.json' // добавлено
   },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh', '@typescript-eslint'], // добавлено '@typescript-eslint'
+  plugins: ['react-refresh', '@typescript-eslint'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    '@typescript-eslint/explicit-module-boundary-types': 'off' // добавлено
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    "react/prop-types": "off"
   },
 }
 
