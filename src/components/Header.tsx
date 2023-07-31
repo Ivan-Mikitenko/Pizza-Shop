@@ -1,10 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
-import Search from './Search';
 import { useSelector } from 'react-redux';
-import PopupCart from './PopupCart';
 import { useEffect, useState } from 'react';
 import { CartType } from '../types/cartType';
 import { selectCart } from '../redux/slices/cart/selectors';
+import { PopupCart, Search } from './index';
 
 function Header() {
 	const { totalPrice, items } = useSelector(selectCart);

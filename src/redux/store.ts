@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import filter from './slices/filter/filterSlice.js';
-import cart from './slices/cart/cartSlice.js';
-import dataPizza from './slices/pizza/pizzasSlice.js';
+import filter from './slices/filter/filterSlice';
+import cart from './slices/cart/cartSlice';
+import dataPizza from './slices/pizza/pizzasSlice';
 import { useDispatch } from 'react-redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';

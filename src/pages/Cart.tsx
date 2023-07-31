@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
-import CartPizzaBlock from '../components/CartPizzaBlock.js';
+import { CartPizzaBlock, CartEmpty } from '../components/index';
 import { useDispatch, useSelector } from 'react-redux';
-import { emptyCart } from '../redux/slices/cart/cartSlice.js';
-import CartEmpty from '../components/CartEmpty.js';
+import { emptyCart } from '../redux/slices/cart/cartSlice';
 import { CartType } from '../types/cartType';
 import { selectCart } from '../redux/slices/cart/selectors';
 

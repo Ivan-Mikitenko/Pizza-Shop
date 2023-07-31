@@ -3,15 +3,19 @@ import { useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { sortArr } from '../mocks/sortArr';
-import { setURLFilter } from '../redux/slices/filter/filterSlice.js';
-import PizzaLoader from '../components/PizzaLoader.js';
-import PizzaBlock from '../components/PizzaBlock.js';
-import Pagination from '../components/Pagination.js';
-import { fetchPizzas } from '../redux/slices/pizza/pizzasSlice.js';
-import CatchPizzas from '../components/CatchPizzas.js';
+import { setURLFilter } from '../redux/slices/filter/filterSlice';
+
+import {
+	CatchPizzas,
+	CategoryMemo,
+	Pagination,
+	PizzaBlock,
+	PizzaLoader,
+	SortMemo
+} from '../components/index';
+
+import { fetchPizzas } from '../redux/slices/pizza/pizzasSlice';
 import { RootState, useAppDispatch } from '../redux/store';
-import CategoryMemo from '../components/Category.js';
-import SortMemo from '../components/Sort.js';
 import { FilterSlice } from '../redux/slices/filter/types';
 
 const PAGE_LIMIT = 10;

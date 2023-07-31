@@ -73,6 +73,10 @@
 		justify-content: space-between;
 		font-size: 20px;
 
+		&-title {
+			margin-bottom: 20px;
+		}
+
 		&-subtitle {
 			margin-bottom: 20px;
 			font-size: 30px;
@@ -80,6 +84,11 @@
 
 		&-history {
 			font-size: 25px;
+		}
+
+		&-button {
+			width: 50%;
+			font-size: 24px;
 		}
 	}
 }

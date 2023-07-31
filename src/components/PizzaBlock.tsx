@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addProduct } from '../redux/slices/cart/cartSlice.js';
+import { addProduct } from '../redux/slices/cart/cartSlice';
 import { Link } from 'react-router-dom';
 import { DataPizzaType } from '../types/dataPizza';
 import { RootState } from '../redux/store';

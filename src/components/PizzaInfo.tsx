@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { CartType } from '../types/cartType';
@@ -52,6 +52,9 @@ function PizzaDetails() {
 					<div>
 						<h1 className='pizza-block__info-title'>{pizzaData.title}</h1>
 					</div>
+					<Link to='/' className='button button--outline pizza-block__info-button'>
+						<span>Назад</span>
+					</Link>
 				</div>
 				<div>
 					<p className='pizza-block__info-subtitle'>Какое то описание</p>
